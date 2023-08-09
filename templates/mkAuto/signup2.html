@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %} 
+
+<form action="{% url 'register_part2' %}" method="post">
+{% csrf_token %}
+<div class="container-fluid">
+    <div class="row pb-3 pt-4 mx-3">
+        <h2><b>Inscription</b></h2>
+        <span class="underline col-1 mx-3"></span>
+    </div>
+   <div class="d-flex flex-row">
+        <div class="col-8 d-flex flex-row">
+            <div class="col-6 d-flex flex-column justify-content-around align-items-center">
+                <div>
+                    <label >Pays</label><br>
+                    {{ form2.pays }}
+                </div>
+                <div>
+                    <label >Adresse</label><br>
+                    {{ form2.adresse }}
+                </div>
+                
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-around">
+                <div>
+                    <label >Ville</label><br>
+                    {{ form2.ville }}
+                </div>
+                <div>
+                    <label >Code Postal</label><br>
+                    {{ form2.postal_code }}
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-4 d-flex flex-column justify-content-between align-items-start px-5">
+            <div><img src={% static "assets/img/profil.png"%} alt="" width="220" height="230"></div>
+            <br/>
+            <div class='px-4'><input type="submit" value='Valider' class='btn btn-btn text-white fw-bold '></div>
+        </div>
+   </div>
+</div>
+<br/>
+<div class="col-12 d-flex justify-content-center align-items-center">
+    <p>Vous avez pas de compte ? <a href={% url 'login' %}>connectez-vous</a></p>
+</div>
+    
+</form>
+
+{% endblock %}

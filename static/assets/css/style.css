@@ -1,0 +1,41 @@
+
+nav, footer{
+    background-color: #305981;
+}
+
+footer p{
+    margin-bottom: 0px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.btn-btn{
+    background-color: #FF703F !important;
+    width: 150px !important;
+}
+
+.btn-btn-2{
+    background-color: #FF703F !important;
+    width: 50px !important;
+}
+.underline{
+    background-color: #FF703F;
+    height: 7px;
+}
+
+input{
+    width: 280px;
+    height: 50px;
+    border: groove;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 0px;
+}
+
+.input{
+    width: 350px;
+}
+
+

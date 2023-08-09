@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="container-fluid">
+            
+        <div class="d-flex flex-row principal">
+            <div class="col-5 img-bg mt-5 d-flex justify-content-center">
+                <img src={% static "assets/img/user_profile_1.png" %} alt="Image" width="300" height="300">
+            </div>
+            <div class="col-6 mx-5 d-flex align-items-center">
+                <div>
+                    <h2><b>{{ profile.user.first_name }} {{ profile.user.last_name }}</b></h2>
+                    <ul>
+                    <li>Nom utilisateur: {{ profile.user.username }}</li>
+                    <li>Email: {{ profile.user.email }}</li>
+                    <li>Numéro de téléphone: {{ profile.telephone }}</li>
+                    <li>Adresse: {{ profile.adresse }}</li>
+                    <li>Ville: {{ profile.ville }}</li>
+                    <li>Code postal: {{ profile.postal_code }}</li>
+                    <li>Pays: {{ profile.pays }}</li>
+                    </ul>
+                    <span class="btn btn-btn text-white"><b><a href={% url "logout" %} class="text-white px-4 text-decoration-none">Logout</a></b></span>
+                </div>
+                
+            </div>
+        
+        </div>
+    </div>
+
+    
+
+
+{% endblock %}

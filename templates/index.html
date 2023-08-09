@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="mx-5 col-6">
+            <div class="row pb-3 pt-4">
+                <h4><b>Trouvez votre prochaine voiture d'occasion avec nous!</b></h4>
+            </div>
+            <div class="fs-5">
+                <p>Bienvenue sur notre site de vente de voitures d'occasion en ligne ! Nous proposons une large
+                    sélection de voitures d'occasion de haute qualité à des prix compétitifs.</p>
+                <p>Notre site propose une navigation facile et intuitive pour vous aider à trouver rapidement la voiture
+                    que vous recherchez. Nous avons une variété de marques et de modèles disponibles, et notre équipe
+                    est à votre disposition pour répondre à toutes vos questions et vous aider à trouver la voiture qui
+                    convient le mieux à vos besoins.</p>
+            </div>
+        </div>
+        <div class="img-bg col-5 p-0 m-0">
+            <img src={% static "assets/img/image.png" %} alt="Image" width="575" height="320" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+{% endblock%}

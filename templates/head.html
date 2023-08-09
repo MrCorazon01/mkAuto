@@ -1,0 +1,13 @@
+{% load static %}
+<nav class="navbar p-0">
+    <div class="container-fluid">
+        <a class="navbar-brand px-4" href={% url 'index'%}>
+            <img src={% static "assets/img/logo.png" %} alt="MK-auto" width="175" height="55">
+        </a>
+        <div class="">
+            <a href={% url 'index' %} class="text-white px-4 text-decoration-none"><b>Accueil</b></a>
+            <a href={% url 'modele' car_id=1 %} class="text-white px-4 text-decoration-none"><b>Modéles</b></a>
+            <a href={% url 'profile' %} class="text-white px-4 text-decoration-none"><b>Profil</b></a>
+        </div>
+    </div>
+</nav>

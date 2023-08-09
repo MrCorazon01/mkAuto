@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="d-flex flex-row principal">
+    <div class="col-5 img-bg mt-5 d-flex justify-content-center">
+        <img src={% static "assets/img/user_profile_1.png" %} alt="Image" width="300" height="300">
+    </div>
+    <div class="col-6 mx-5 d-flex align-items-center">
+        <div>
+            <h2><b>utilisateur non connecté</b></h2>
+            <div class="d-flex justify-content-center">
+                <h5><a href={% url 'signup' %}>Inscription|</a><a href={% url 'login' %}>Connexion</a></h5>
+            </div>
+            
+        </div>
+    </div>
+   
+</div>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row pb-3 pt-4 mx-3">
+    <h2><b>Connexion</b></h2>
+    <span class="underline col-1 mx-3"></span>
+</div>
+<div class="d-flex flex-row">
+    
+    <div class="col-6 d-flex flex-column justify-content-around align-items-start mx-5">
+        <form method="post" action="{% url 'process_login' %}">       
+            {% csrf_token %}
+            <div>
+                <label for="username">Nom d'utilisateur</label><br>
+                <input type="text" name="username" id="username" placeholder="  Veuillez entrer votre username" class="input">
+            </div>
+            <div>
+                <br/><label for="password">Mot de passe</label><br>
+                <input type="password" name="password" id="password" placeholder="  Veuillez entrer votre mdp" class="input">
+            </div>
+            
+            <div>
+                <br/><input class="btn btn-btn text-white align-items-center fw-bold" type="submit" value="Se connecter">
+            </div>
+            {% if error %}
+            <br/><div class="alert alert-danger">{{ error }}</div>
+            {% endif %}
+        </form>
+    </div>
+    
+    <div class="col-4"><img src={% static "assets/img/profil2.png" %} alt="" width="320" height="300"></div>
+</div>
+
+<div class="col-4 d-flex justify-content-center align-items-center">
+    <p>Vous n'avez pas de compte ? <a href={% url 'signup' %}>inscrivez vous</a></p>
+</div>
+
+{% endblock %}

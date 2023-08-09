@@ -1,0 +1,82 @@
+----------------Accueil----------------
+Trouvez votre prochaine voiture d'occasion avec nous !
+
+Bienvenue sur notre site de vente de voitures d'occasion en ligne ! Nous proposons une large sélection de voitures d'occasion de haute qualité à des prix compétitifs.
+
+Notre site propose une navigation facile et intuitive pour vous aider à trouver rapidement la voiture que vous recherchez. Nous avons une variété de marques et de modèles disponibles, et notre équipe est à votre disposition pour répondre à toutes vos questions et vous aider à trouver la voiture qui convient le mieux à vos besoins.
+
+----------------Modèle----------------
+
+-TOYOTA Corolla
+Couleurs disponibles : Blanc nacré, Noir métallisé, Gris métallisé, Rouge métallisé, Bleu métallisé.
+Prix moyen : environ 23 000 euros
+Consommation de carburant : jusqu'à 5,3 litres/100 km (modèle hybride)
+Technologie de sécurité : Toyota Safety Sense 2.0
+Confort de conduite : Suspension indépendante pour une conduite douce et agréable.
+Espace intérieur : Une grande capacité de chargement et une banquette arrière rabattable pour plus de flexibilité.
+Connectivité : Apple CarPlay et Android Auto pour une connectivité smartphone facile.
+
+-Nissan Altima
+Couleurs disponibles : Blanc nacré, Noir métallisé, Gris métallisé, Rouge métallisé, Bleu métallisé.
+Prix moyen : environ 25 000 euros
+Consommation de carburant : jusqu'à 6,7 litres/100 km (modèle à essence)
+Technologie de sécurité : Nissan Safety Shield 360
+Confort de conduite : Sièges confortables et technologie de suspension avancée pour une conduite douce et silencieuse.
+Espace intérieur : Des sièges spacieux et une grande capacité de chargement pour plus de confort.
+Connectivité : NissanConnect pour une connectivité smartphone facile.
+
+-Hyundai Elantra
+Couleurs disponibles : Blanc nacré, Noir métallisé, Gris métallisé, Rouge métallisé, Bleu métallisé.
+Prix moyen : environ 22 000 euros
+Consommation de carburant : jusqu'à 5,2 litres/100 km (modèle hybride)
+Technologie de sécurité : Hyundai SmartSense
+Confort de conduite : Suspension indépendante pour une conduite douce et agréable.
+Espace intérieur : Des sièges spacieux et un grand espace de chargement pour plus de commodité.
+Connectivité : Apple CarPlay et Android Auto pour une connectivité smartphone facile.
+
+-Ford Mustang
+Couleurs disponibles : Blanc nacré, Noir métallisé, Gris métallisé, Rouge métallisé, Bleu métallisé.
+Prix moyen : environ 40 000 euros
+Consommation de carburant : jusqu'à 9,8 litres/100 km (modèle à essence)
+Technologie de sécurité : Ford Co-Pilot360
+Confort de conduite : Sièges en cuir confortables et suspension sportive pour une conduite sportive et dynamique.
+Espace intérieur : Un intérieur élégant et des sièges sportifs pour un confort supérieur.
+Connectivité : Sync 3 pour une connectivité smartphone facile.
+
+-Peugeot 3008
+Couleurs disponibles : Blanc nacré, Noir métallisé, Gris métallisé, Rouge métallisé, Bleu métallisé.
+Prix moyen : environ 33 000 euros
+Consommation de carburant : jusqu'à 4,8 litres/100 km (modèle hybride)
+Technologie de sécurité : Alerte active de franchissement involontaire de ligne, Régulateur de vitesse adaptatif.
+Confort de conduite : Suspension confortable et insonorisation pour une conduite douce et agréable.
+Espace intérieur : Un grand espace intérieur et une banquette arrière rabattable pour plus de flexibilité.
+Connectivité : Peugeot i-Cockpit avec écran tactile pour une connectivité smartphone facile.
+
+----------------Profile----------------
+-Samba Ndiaye
+Nom d'utilisateur: Samba01
+Email: samband01@example.com
+Numéro de téléphone: 770102030
+Adresse: 123 rue de l'exemple
+Ville: Dakar
+Code postal: 30000
+Pays: Senegal
+
+-Aminata Niang
+Nom d'utilisateur: Aminagnain
+Email: amina01@example.com
+Numéro de téléphone: 781001001
+Adresse: 123 rue de l'exemple
+Ville: Tivaouane
+Code postal: 25000
+Pays: Senegal
+
+-Ameth Tall
+Nom d'utilisateur: Ameth2022
+Email: ameth2022@example.com
+Numéro de téléphone: 760011010
+Adresse: 123 rue de l'exemple
+Ville: Bignona
+Code postal: 37000
+Pays: Senegal
+
