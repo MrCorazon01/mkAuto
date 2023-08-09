@@ -15,6 +15,15 @@ Ce projet est un exemplaire fonctionnel d'un site de vente de voitures, créé p
 
 - **Détails du Produit:** Consultation des informations détaillées sur chaque voiture, y compris des images, des spécifications techniques et des descriptions.
 
+## Captures d'écran
+
+![Capture d'Écran 1](Screenshots/img1.png)
+
+![Capture d'Écran 2](Screenshots/img2.png)
+
+![Capture d'Écran 2](Screenshots/img3.png)
+
+
   
 ## Comment Tester Localement
 
